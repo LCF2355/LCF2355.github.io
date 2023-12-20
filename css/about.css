@@ -1,0 +1,77 @@
+/* About Page Css Starts */
+
+section.about h1 {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.whyUs__heading h2 {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.inner__whyUs {
+  max-width: 750px;
+  width: 100%;
+}
+
+.inner__whyUs h2 {
+  font-size: 20px;
+}
+
+.why__us {
+  color: white;
+  text-align: initial;
+  font-family: "Roboto Slab", serif;
+  padding-top: 50px;
+}
+
+.our__story {
+  padding-top: 30px;
+}
+
+.our__story h2,
+.our__story p {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px 0px;
+}
+
+.col:nth-child(2n + 1) {
+  text-align: right;
+}
+
+.inner__whyUs {
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inner__whyUs_image img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+/* About Page Css Ends */

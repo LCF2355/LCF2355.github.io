@@ -1,0 +1,34 @@
+/* Team Css starts */
+
+.our-team h1 {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  padding: 40px 0px 10px;
+}
+
+.our-team p {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+.our-story {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.our-story p {
+  padding: 20px 0px;
+}
+
+.our-story h2,
+.our-story p {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+/* Team Css Ends */

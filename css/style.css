@@ -1,0 +1,177 @@
+/*
+Name: Karan Goswami
+Student Number: c0921287
+*/
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+/* Index.html style Starts */
+
+.logo a {
+  display: block;
+}
+
+.inner__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav__List {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+}
+
+.nav__List a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2em;
+  margin: 10px;
+  padding: 3px 0px 3px;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+.nav__List a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #47e50f;
+  transform: scaleX(0);
+  transition: all 0.4s ease-in-out;
+  transform-origin: left;
+}
+
+.nav__List .active::before {
+  transform: scaleX(1);
+}
+
+.nav__List a:hover::before {
+  background-color: #47e50f;
+  transform: scaleX(1);
+  transition: all 0.4s ease-in-out;
+}
+
+main {
+  text-align: center;
+}
+
+.main__section {
+  padding: 40px 0px 40px;
+}
+
+.main__section img {
+  border-radius: 10px;
+}
+.main__section h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2em;
+  color: white;
+}
+
+.main__section p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+  color: white;
+}
+
+.product_image {
+  padding-top: 20px;
+}
+
+/* Index.html style Ends */
+
+/* Footer style Starts */
+
+footer {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.inner__footer p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+}
+
+.inner__footer a {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  padding: 5px 0px;
+  display: block;
+  color: #288507;
+  text-decoration: none;
+}
+
+/* Footer style Ends */
+
+/* specials.html style Start */
+
+.product__head h1 {
+  font-family: "Roboto Slab", serif;
+  padding: 20px 0px;
+  text-decoration: underline;
+  background: -webkit-linear-gradient(#fff, #47e50f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.product__sec {
+  text-align: left;
+  padding: 10px;
+  display: inline-block;
+}
+
+.product_price {
+  font-family: "Roboto Slab", serif;
+  padding-top: 10px;
+  color: white;
+}
+
+.product_price span {
+  text-decoration: line-through;
+  font-size: 0.9em;
+  color: gray;
+  padding-left: 10px;
+  color: white;
+}
+
+.product__name p {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+}
+
+.product__features p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  color: white;
+}
+
+.product__features ul::marker {
+  color: white;
+}
+/* specials.html style Ends */
